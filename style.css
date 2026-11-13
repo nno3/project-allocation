@@ -6,7 +6,7 @@ body {
 }
 
 main {
-    width: min(760px, calc(100% - 32px));
+    width: min(980px, calc(100% - 32px));
     margin: 32px auto 48px;
 }
 
@@ -23,8 +23,34 @@ h2 {
     font-weight: normal;
 }
 
-p {
+.intro,
+.score {
     line-height: 1.45;
+}
+
+.score {
+    font-size: 22px;
+    margin: 0 0 8px;
+}
+
+.actions,
+button {
+    margin-top: 8px;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+button {
+    border: 1px solid #0d6575;
+    background: #0d6575;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
 }
 
 table {
@@ -36,7 +62,7 @@ table {
 th,
 td {
     text-align: left;
-    padding: 10px 12px;
+    padding: 8px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -45,6 +71,10 @@ th {
     color: #fff;
 }
 
-.note {
-    color: #333;
+input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 6px;
+    font: inherit;
 }

@@ -10,4 +10,4 @@ The program gives each student the highest choice that still has space. It then 
 
 Live page: https://nno3.github.io/project-allocation/
 
-The C++ source is in `cpp/`. A small example, where every student gets their first choice, is in `example/`.
+Open that page, change the choices, and press Allocate. It runs the same steps as the C++ program. The source is in `cpp/`, and a small example is in `example/`.
